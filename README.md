@@ -39,6 +39,9 @@ Avoid the Google One subscription and retain your personal data with your own se
             - 'IPv4' - 'Method': select 'DHCP'
             - 'Advanced Settings' - 'DNS Servers': "8.8.8.8" -> *Save*
     - 'Update Management' - click '☐ Package information' and click '+Upgrade'
+
+
+NOT SURE FROM HERE DOWNWARDS!
     
 14. In 'Storage' :
     - 'File Systems'
