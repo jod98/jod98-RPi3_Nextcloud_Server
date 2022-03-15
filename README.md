@@ -47,7 +47,7 @@ NOT SURE FROM HERE DOWNWARDS!
     - 'File Systems'
         - Click '+Create'
             - 'Device' - *your HDD*
-            - 'Label' - "Plex Pi HDD" -> *Save*
+            - 'Label' - "Personal" -> *Save*
         - *Once file system created* - click 'Mount' (access HDD content over network)
         
 15. In 'Access Rights Management' :
@@ -65,14 +65,9 @@ NOT SURE FROM HERE DOWNWARDS!
                 - Click '☐ users' -> *Save*
     - 'Shared Folders'
         - Click '+Add'
-            - 'Name': 'Movies'
+            - 'Name': 'Personal'
             - 'Device': *select HDD device*
-            - 'Path': 'Movies/'
-            - 'Permissions': 'Everyone: read/write' -> *Save*
-        - Click '+Add'
-            - 'Name': 'TV_Shows'
-            - 'Device': *select HDD device*
-            - 'Path': 'TV_Shows/'
+            - 'Path': 'Personal/'
             - 'Permissions': 'Everyone: read/write' -> *Save*
 
 15. In 'Services' :
@@ -81,17 +76,14 @@ NOT SURE FROM HERE DOWNWARDS!
             - Click 'Enable' -> *Save*
         - 'Shares'
             - Click '+Add'
-                - 'Shared Folder': *select recently created shared folder i.e. 'Movies'*
+                - 'Shared Folder': *select recently created shared folder i.e. 'Personal'*
                 - 'Public': 'Guests Allowed' 
                 - 'Inherit permissions': 'Enable' -> *Save*
-            - Click '+Add'
-                - 'Shared Folder': *select recently created shared folder i.e. 'TV_Shows'*
-                - 'Public': 'Guests Allowed' 
-                - 'Inherit permissions': 'Enable' -> *Save*
+
     - 'SSH'
         - 'Permit root login': 'Enable' -> *Save*
 
-16. Close OMV + Navigate to 'Windows Explorer' -> 'Network'. Verify that the Raspberry Pi is visible and content is accessible on the network
+16. Sidetask: Navigate to 'Windows Explorer' -> 'Network'. Verify that the Raspberry Pi is visible and content is accessible on the network
 
 ![RaspberryPi_Network](https://user-images.githubusercontent.com/36043248/131515974-a62fe16a-5ca9-4325-9e8e-547f934891c4.png)
 
