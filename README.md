@@ -36,5 +36,5 @@ Follow the tutorials below to complete the process...
 
 16. OMV Settings Setup: https://youtu.be/M_oxzpvMPTE
 17. NGINX Proxy Manager Install: https://www.youtube.com/watch?v=2oi4IQF7VnE 
-18. Nextcloud Install (using Docker and Portainer): https://www.youtube.com/watch?v=HkAqt6WreGQ
+18. Nextcloud Install (using Docker and Portainer): https://www.youtube.com/watch?v=HkAqt6WreGQ or https://www.addictedtotech.net/installing-nextcloud-on-raspberry-pi-4/
 
