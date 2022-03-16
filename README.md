@@ -38,3 +38,5 @@ Follow the tutorials below to complete the process...
 17. NGINX Proxy Manager Install: https://www.youtube.com/watch?v=2oi4IQF7VnE or https://nginxproxymanager.com/
 18. Nextcloud Install (using Docker and Portainer): https://www.youtube.com/watch?v=HkAqt6WreGQ or https://www.addictedtotech.net/installing-nextcloud-on-raspberry-pi-4/
 
+Refer to this guide for port forwarding, domain, DDNS, proxy and SSL. Steps '14' onwards: https://github.com/jod98/RPi3_Web_Server---Host_for_FREE/blob/master/README.md
+
